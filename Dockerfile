@@ -9,6 +9,6 @@ mkdir ob-build &&\
 cd ob-build &&\
 cmake .. &&\
 make install &&\
-apt-get purge -y git cmake &&\
+apt-get purge -y git cmake build-essential &&\
 apt-get autoremove -y &&\
 apt-get autoclean
